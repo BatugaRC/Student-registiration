@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, chartreuse 0%, burlywood 100%);
+}
+
+.table-container {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+}
+
+table {
+    margin-top: 70px;
+    margin-left: 440px;
+   
+    border-color: rgba(77, 169, 222, 0.88);
+    background-color: rgba(255, 198, 55, 0.308);
+    color: rgb(61, 35, 1);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 3px;
+    letter-spacing: 0.7px;
+    font-weight: 600;
+}
+
+.button {
+    
+        background-color: #fa0a0a; /* Green */
+        border: none;
+        color: white;
+        padding: 6px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 10px;
+        margin: 10px;
+        transition: 0.3s;
+}
+
+button:hover{
+    background-color: #ffffff;
+    color: #fa0a0a;
+    cursor: pointer;
+}
+
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(35, 40, 34, 0.673);
+    
+    
+}
+input:not(submit), select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
